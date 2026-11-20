@@ -1,0 +1,15 @@
+site_name: "Nice Airport Transfer Fare System: Technical Documentation"
+site_description: "How fixed fares, booking data, flight tracking, waiting time and service coverage are organised for private transfers from Nice Côte d'Azur airport (NCE), based on the public pages of taxiaeroportnice.com."
+site_author: "Transfert Privé Aéroport Nice"
+site_url: !ENV [READTHEDOCS_CANONICAL_URL, ""]
+docs_dir: docs
+theme:
+  name: readthedocs
+  locale: en
+nav:
+  - Overview and fare model: index.md
+  - Booking workflow and data fields: booking-workflow.md
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
